@@ -1,0 +1,363 @@
+h1 {
+    text-align: center;
+    }
+
+/* h1 = selector - will target each instance of the selector */
+
+h2 {
+    color:darkgoldenrod;
+    font-size: 30px;
+}
+h3 {
+    color:darkgoldenrod;
+    font-size: 30px;
+}
+
+/* <p class="title1">
+used to give things different values incase you want to change colours of say links. (class="title")*/
+
+.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8,.text9,.text10,.text11,.text12,.text13,.text14,.text15,.text16 {
+    color:rgb(229, 3, 3); 
+    flex: auto;
+}
+ul1 {
+    list-style: none;
+    display: content;
+
+    }
+ul2 {
+    display: content;
+    background-color: #000000;
+    color: rgb(222, 0, 0);
+}
+
+#navbar{
+    font-size:30px;
+    display:flex; 
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+}
+
+#navbar a{
+    color:rgb(230, 3, 3);
+    text-decoration: none;
+}
+
+/* .frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    box-shadow:
+-7px -7px 20px 0px #fff9,
+-4px -4px 5px 0px #fff9,
+7px 7px 20px 0px #0002,
+4px 4px 5px 0px #0001,
+inset 0px 0px 0px 0px #fff9,
+inset 0px 0px 0px 0px #0001,
+inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+border-radius: 10px;
+} */
+.btn1{
+    height: 40px;
+    width: 90px;
+    border-radius: 3px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 26px;
+    color: #666;
+    text-decoration: none;
+}
+.btn1:hover{
+background: radial-gradient(circle,  #0ff 0%, #e0e5ec 60%);
+    color: rgba(102,102,102,.5); 
+    animation: colorchange 3s linear infinite;
+}
+.btn1:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+@keyframes colorchange {
+    to {filter: hue-rotate(360deg);}
+}
+.btn2{
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 26px;
+    color: #666;
+    text-decoration: none;
+}
+.btn2:hover{
+background: radial-gradient(circle,  #0ff 0%, #e0e5ec 60%);
+    color: rgba(102,102,102,.5); 
+    animation: colorchange 3s linear infinite;
+}
+.btn2:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+@keyframes colorchange {
+    to {filter: hue-rotate(360deg);}
+}
+.btn3{
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 26px;
+    color: #666;
+    text-decoration: none;
+}
+.btn3:hover{
+background: radial-gradient(circle,  #0ff 0%, #e0e5ec 60%);
+    color: rgba(102,102,102,.5); 
+    animation: colorchange 3s linear infinite;
+}
+.btn3:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+@keyframes colorchange {
+    to {filter: hue-rotate(360deg);}
+}
+.btn4{
+    height: 40px;
+    width: 90px;
+    border-radius: 3px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 26px;
+    color: #666;
+    text-decoration: none;
+}
+.btn4:hover{
+background: radial-gradient(circle,  #0ff 0%, #e0e5ec 60%);
+    color: rgba(102,102,102,.5); 
+    animation: colorchange 3s linear infinite;
+}
+.btn4:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+@keyframes colorchange {
+    to {filter: hue-rotate(360deg);}
+}
+.btn5{
+    height: 40px;
+    width: 140px;
+    border-radius: 3px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    font-size: 26px;
+    color: #666;
+    text-decoration: none;
+}
+.btn5:hover{
+background: radial-gradient(circle,  #0ff 0%, #e0e5ec 60%);
+    color: rgba(102,102,102,.5); 
+    animation: colorchange 3s linear infinite;
+}
+.btn5:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+@keyframes colorchange {
+    to {filter: hue-rotate(360deg);}
+}
+.Home { 
+    background-image: url("The Crow poster 4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.Origins { 
+    background-image: url("The Crow poster 5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.Movies { 
+    background-image: url("The Crow poster 6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.Actors { 
+    background-image: url("The Crow window scene.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+}
+.Soundtrack { 
+    background-image: url("The Crow soundtrack.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.container1 {
+    background-color: #000000;
+    margin-left: 250px;
+    text-align: left;
+    
+}
+.container2 {
+    background-color: #000000;
+    
+}
+.container3 {
+    background-color: #000000;
+    
+}
+.container4 {
+    background-color: #000000;
+    
+}
+.container5 {
+    background-color: #000000;
+    
+}
+.container6 {
+    background-color: #000000;
+    
+}
+.container7 {
+    background-color: #000000;
+    
+}
+.container8 {
+    background-color: #000000;
+    
+}
+.container9 {
+    background-color: #000000;
+    
+}
+.container10 {
+    background-color: #000000;
+    
+}
+.container11 {
+    background-color: #000000;
+    
+}
+.container12 {
+    background-color: #000000;
+    
+}
+.container13 {
+    background-color: #000000;
+    
+}
+.container14 {
+    background-color: #000000;
+    
+}
+.container15 {
+    background-color: #000000;
+    
+}
+.container16 {
+    background-color: #000000;
+    
+}
+.container17 {
+    background-color: #000000;
+    flex:content;
+    
+}
+.a {
+    color: rgb(0, 0, 0);
+}
+.player {
+    text-align:center;
+}
+.cast {
+    display:flexbox;
+    color:red;
+    background-color:black;
+    
+}
+.a:hover {
+    color: radial-gradient(circle,  #0ff 0%, #e0e5ec 60%);
+    animation: colorchange 3s linear infinite;
+}
+/* .nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+} */
